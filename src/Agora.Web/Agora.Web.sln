@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agora.Web", "Agora.Web\Agora.Web.csproj", "{69D54FE8-1D5B-405A-80DA-451E0FA7CE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D54FE8-1D5B-405A-80DA-451E0FA7CE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D54FE8-1D5B-405A-80DA-451E0FA7CE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D54FE8-1D5B-405A-80DA-451E0FA7CE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D54FE8-1D5B-405A-80DA-451E0FA7CE01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3BC09D-B061-45D0-902F-35A533A3EB82}
+	EndGlobalSection
+EndGlobal
