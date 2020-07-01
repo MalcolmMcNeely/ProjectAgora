@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agora.EventStore", "Agora.EventStore\Agora.EventStore.csproj", "{12E796D5-DA2F-4BF7-B23B-D299651C3A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E796D5-DA2F-4BF7-B23B-D299651C3A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E796D5-DA2F-4BF7-B23B-D299651C3A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E796D5-DA2F-4BF7-B23B-D299651C3A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E796D5-DA2F-4BF7-B23B-D299651C3A23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31189545-4076-4006-BF0C-0D4D7AD8C88C}
+	EndGlobalSection
+EndGlobal
