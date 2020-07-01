@@ -1,5 +1,7 @@
 ﻿using Agora.EventStore.Example.Forum.Board.Thread.Events;
+using Agora.EventStore.Example.Forum.Board.Thread.Exceptions;
 using System;
+using System.Linq;
 
 namespace Agora.EventStore.Example.Forum.Board.Thread
 {
@@ -14,17 +16,36 @@ namespace Agora.EventStore.Example.Forum.Board.Thread
 
         private void OnEditPost(EditPost @event, ThreadState state)
         {
-            state.
+            var post = state.Posts.FirstOrDefault(x => x.Id == @event.Id);
+
+            if(post == null)
+            {
+                throw new PostNotFoundException("Post cannot be found");
+            }
+
+            post.Content = @event.Content;
         }
 
         private void OnDeletePost(DeletePost @event, ThreadState state)
         {
-            throw new NotImplementedException();
+            var post = state.Posts.FirstOrDefault(x => x.Id == @event.Id);
+
+            if(post == null)
+            {
+                throw new PostNotFoundException("Post cannot be found");
+            }
+
+            state.Posts.Remove(post);
         }
 
         private void OnAddPost(AddPost @event, ThreadState state)
         {
-            throw new NotImplementedException();
+            state.Posts.Add(new Post
+            {
+                Author = @event.Author,
+                Content = @event.Content,
+                Id = Guid.NewGuid(),
+            });
         }
     }
 }

@@ -2,6 +2,6 @@
 {
     public class EditPost : PostEvent
     {
-        string Content { get; set; }
+        public string Content { get; set; }
     }
 }
