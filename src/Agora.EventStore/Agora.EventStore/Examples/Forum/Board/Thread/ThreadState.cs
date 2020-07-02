@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Agora.EventStore.Eventing;
 
-namespace Agora.EventStore.Example.Forum.Board.Thread
+namespace Agora.EventStore.Examples.Forum.Board.Thread
 {
     public class ThreadState : IAggregateState
     {

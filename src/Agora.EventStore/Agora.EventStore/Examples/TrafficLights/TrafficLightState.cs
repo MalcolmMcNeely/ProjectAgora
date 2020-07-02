@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Agora.EventStore.Eventing;
 
-namespace Agora.EventStore.Example.TrafficLights
+namespace Agora.EventStore.Examples.TrafficLights
 {
     public class TrafficLightState : IAggregateState
     {

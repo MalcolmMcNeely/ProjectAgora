@@ -1,4 +1,6 @@
-﻿namespace Agora.EventStore.Example.TrafficLights
+﻿using Agora.EventStore.Eventing;
+
+namespace Agora.EventStore.Examples.TrafficLights
 {
     public class TrafficLightAggregate : Aggregate<TrafficLightState>
     {

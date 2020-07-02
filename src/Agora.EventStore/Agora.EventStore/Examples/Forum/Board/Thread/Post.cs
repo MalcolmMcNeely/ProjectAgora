@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Agora.EventStore.Example.Forum.Board.Thread
+namespace Agora.EventStore.Examples.Forum.Board.Thread
 {
     public class Post
     {

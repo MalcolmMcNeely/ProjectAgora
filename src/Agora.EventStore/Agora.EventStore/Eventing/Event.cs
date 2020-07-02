@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Agora.EventStore
+namespace Agora.EventStore.Eventing
 {
     public abstract class Event : IEvent
     {

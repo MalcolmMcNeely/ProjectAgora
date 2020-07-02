@@ -1,9 +1,10 @@
-﻿using Agora.EventStore.Example.Forum.Board.Thread.Events;
-using Agora.EventStore.Example.Forum.Board.Thread.Exceptions;
-using System;
+﻿using System;
 using System.Linq;
+using Agora.EventStore.Eventing;
+using Agora.EventStore.Examples.Forum.Board.Thread.Events;
+using Agora.EventStore.Examples.Forum.Board.Thread.Exceptions;
 
-namespace Agora.EventStore.Example.Forum.Board.Thread
+namespace Agora.EventStore.Examples.Forum.Board.Thread
 {
     public class ThreadAggregate : Aggregate<ThreadState>
     {

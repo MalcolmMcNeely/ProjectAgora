@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Agora.EventStore.Example.Forum.Board.Thread.Exceptions
+namespace Agora.EventStore.Examples.Forum.Board.Thread.Exceptions
 {
     public class PostNotFoundException : Exception
     {

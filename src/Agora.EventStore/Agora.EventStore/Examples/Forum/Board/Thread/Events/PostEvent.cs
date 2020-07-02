@@ -1,6 +1,7 @@
 ﻿using System;
+using Agora.EventStore.Eventing;
 
-namespace Agora.EventStore.Example.Forum.Board.Thread.Events
+namespace Agora.EventStore.Examples.Forum.Board.Thread.Events
 {
     public class PostEvent : Event
     {

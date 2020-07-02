@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Agora.EventStore
+namespace Agora.EventStore.Eventing
 {
-    public class Aggregate<TAggregateState> where TAggregateState : IAggregateState, new()
+    public class Aggregate<TAggregateState> : IAggregate where TAggregateState : IAggregateState, new()
     {
         public delegate void Handler<in TEvent>(TEvent @event, TAggregateState state) where TEvent : IEvent;
 
@@ -11,7 +11,7 @@ namespace Agora.EventStore
 
         public Aggregate()
         {
-            // Need a Repo
+            // Need a Repo?
         }
 
         public void Handles<TEvent>(Handler<TEvent> handler) where TEvent : IEvent

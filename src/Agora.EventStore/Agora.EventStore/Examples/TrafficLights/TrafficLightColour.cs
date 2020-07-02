@@ -1,4 +1,4 @@
-﻿namespace Agora.EventStore.Example.TrafficLights
+﻿namespace Agora.EventStore.Examples.TrafficLights
 {
     public enum TrafficLightColour
     {
